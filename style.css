@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#education {
+    font-family:'Times New Roman', Times, serif;
+    /* font-size: 16px;
+    border:red solid 2px;
+    font-weight: bold; */
+    background-color: #333;
+    color: white;
+
+    font: bold 16px "Times New Roman", Times, serif;
+
+    line-height: 2em;
+    
+    width: 90%;
+
+    box-align: center;
+
+    margin-left:30px;
+}
+
+th, td {
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid ;
+    background-color: blue;
+    position: relative;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+#desc {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+#desc h3 {
+
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    
+}
+
+
+#skill {
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 1.2);
+    
+    /* border-top: 5px outset red;
+    border-bottom: 5px outset red;
+    border-right: 5px outset red;
+    border-left: 5px outset red; */
+
+    border: 5px outset red;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#skill ul {
+    padding: 100 px;
+    list-style-type: square;
+    }
+
+
+.juara li {
+    color: black;
+    border-bottom: dotted 2px black;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 10px;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 10px;
+    width: 100%;
+    }
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color:red;
+    color: #fff;
+}
+
+.block{
+    float:left;
+    width:33%;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Positioning In CSS
+
+- Static: default
+- Relative: 
+- Absolute
+- Fixed
+- Initial
+- Inherit
+*/
+
+
+.main-block{
+    float:left;
+    width:70%;
+}
+
+.sidebar{
+    float:left;
+    width:30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 300px;
+    position: relative;
+    background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-background-tong-058.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=710a6fed5b1923da8d5f95191839ef8a);
+    background-repeat: no-repat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.p-box h2{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+.haloo{
+    position: fixed;
+    top: 400px;
+    left: 50px;
+    color: white;
+    background-color: #333;
+    font-size: 20px;
+
+}
+
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: red;
+}
+
+.my-list li:nth-child(5){
+    background: red;
+}
+
+.my-list li:nth-child(even){
+    background: blue;
+}
+
+
+
+
+
